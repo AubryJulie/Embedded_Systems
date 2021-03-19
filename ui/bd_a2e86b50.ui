@@ -1,0 +1,68 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port led_4bits -pg 1 -lvl 7 -x 2640 -y 420 -defaultsOSRD
+preplace port push_buttons_4bits -pg 1 -lvl 7 -x 2640 -y 450 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x 0 -y 190 -defaultsOSRD
+preplace port TDI -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace port nTRST -pg 1 -lvl 0 -x 0 -y 630 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 230 -defaultsOSRD
+preplace port locked -pg 1 -lvl 7 -x 2640 -y 570 -defaultsOSRD
+preplace port SWCLK -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace inst Clocks_and_Resets -pg 1 -lvl 2 -x 470 -y 212 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 5 -x 2280 -y 440 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1990 -y 410 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 2 -x 470 -y 60 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 100 -y 60 -defaultsOSRD
+preplace inst Cortex_M3_0 -pg 1 -lvl 3 -x 1640 -y 480 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 470 -y 804 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 100 -y 390 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -x 2280 -y 300 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 6 -x 2510 -y 300 -defaultsOSRD
+preplace inst Clocks_and_Resets|proc_sys_reset_base -pg 1 -lvl 2 -x 740 -y 232 -defaultsOSRD
+preplace inst Clocks_and_Resets|i_inv_dbgresetn -pg 1 -lvl 3 -x 1060 -y 492 -defaultsOSRD
+preplace inst Clocks_and_Resets|i_inv_sysresetn1 -pg 1 -lvl 3 -x 1060 -y 392 -defaultsOSRD
+preplace inst Clocks_and_Resets|clk_wiz_0 -pg 1 -lvl 3 -x 1060 -y 622 -defaultsOSRD
+preplace inst Clocks_and_Resets|xlconstant_1 -pg 1 -lvl 1 -x 460 -y 232 -defaultsOSRD
+preplace netloc clk_wiz_0_clk_out1 1 2 3 1380 260 1850 260 2150
+preplace netloc proc_sys_reset_1_interconnect_aresetn 1 2 3 1360J 270 NJ 270 2130
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 2 2 1360 250 1840
+preplace netloc sys_clock_1 1 0 2 NJ 190 230J
+preplace netloc Clocks_and_Resets_sysresetn 1 2 1 1360 380n
+preplace netloc Clocks_and_Resets_dbgresetn 1 2 1 1360 460n
+preplace netloc xlconcat_1_dout 1 2 1 1370J 60n
+preplace netloc TDI_1 1 0 3 NJ 600 200J 712 1400J
+preplace netloc nTRST_1 1 0 3 NJ 630 180J 722 1390J
+preplace netloc Cortex_M3_0_SYSRESETREQ 1 1 3 230 884 NJ 884 1830
+preplace netloc reset_1 1 0 2 NJ 230 220J
+preplace netloc Clocks_and_Resets_locked 1 2 5 1370J 690 NJ 690 NJ 690 NJ 690 2610J
+preplace netloc SWCLK_1 1 0 3 NJ 540 190J 874 1410J
+preplace netloc xlconstant_1_dout 1 1 1 NJ 60
+preplace netloc axi_gpio_0_ip2intc_irpt 1 1 5 240 894 NJ 894 NJ 894 NJ 894 2410
+preplace netloc xlconcat_0_dout 1 2 1 1380 400n
+preplace netloc xlconstant_0_dout 1 1 1 210J 390n
+preplace netloc axi_gpio_0_GPIO2 1 5 2 NJ 440 2610J
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 2140 280n
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 NJ 300
+preplace netloc axi_gpio_0_GPIO 1 5 2 NJ 420 NJ
+preplace netloc Cortex_M3_0_CM3_SYS_AXI3 1 3 1 N 330
+preplace netloc axi_interconnect_0_M01_AXI 1 4 1 N 420
+preplace netloc Clocks_and_Resets|dcm_locked_1 1 1 3 570 552 NJ 552 1200
+preplace netloc Clocks_and_Resets|clk_wiz_0_clk_out1 1 1 3 560 332 NJ 332 1210
+preplace netloc Clocks_and_Resets|sys_clock_1 1 0 3 NJ 342 NJ 342 910
+preplace netloc Clocks_and_Resets|proc_sys_reset_base_mb_reset 1 2 1 920 192n
+preplace netloc Clocks_and_Resets|i_inv_sysresetn1_Res 1 3 1 NJ 392
+preplace netloc Clocks_and_Resets|i_inv_dbgresetn_Res 1 3 1 NJ 492
+preplace netloc Clocks_and_Resets|sys_reset_n 1 0 2 380J 172 540
+preplace netloc Clocks_and_Resets|proc_sys_reset_base_peripheral_aresetn 1 2 2 N 272 NJ
+preplace netloc Clocks_and_Resets|proc_sys_reset_base_interconnect_aresetn 1 2 2 N 252 NJ
+preplace netloc Clocks_and_Resets|sysresetreq_1 1 0 2 370J 162 550
+preplace netloc Clocks_and_Resets|xlconstant_1_dout 1 1 1 NJ 232
+levelinfo -pg 1 0 100 470 1640 1990 2280 2510 2640
+levelinfo -hier Clocks_and_Resets * 460 740 1060 *
+pagesize -pg 1 -db -bbox -sgen -110 0 2820 1020
+pagesize -hier Clocks_and_Resets -db -bbox -sgen 340 132 1240 692
+"
+}
+0
