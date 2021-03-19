@@ -1,0 +1,124 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Julie Aubry, Politecnico di milano, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  D:\embedded\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil\m3_for_arty_a7.uvprojx
+Project File Date:  03/17/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\embedded\ARM\ARMCC\Bin'
+Rebuild target 'm3_for_arty_a7'
+assembling atomic_asm.s...
+assembling startup_ARTY_CM3.s...
+compiling outbyte.c...
+compiling xil_assert.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.c: 1 warning, 0 errors
+compiling print.c...
+compiling system_ARTY_CM3.c...
+compiling atomic.c...
+compiling xgpio_g.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_g.c: 1 warning, 0 errors
+compiling xgpio_extra.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_extra.c: 1 warning, 0 errors
+compiling xgpio.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.c: 1 warning, 0 errors
+compiling main.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\aes\aes_128_CBC.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif // _AES_H_
+..\main\main.c(433): warning:  #1-D: last line of file ends without a newline
+  }
+..\main\main.c(60): warning:  #550-D: variable "CPU_rev"  was set but never used
+  		int					 CPU_rev;
+..\main\main.c(61): warning:  #550-D: variable "CPU_var"  was set but never used
+  		int					 CPU_var;
+..\main\main.c(139): warning:  #550-D: variable "END"  was set but never used
+  	  volatile uint8_t * END;
+..\main\main.c: 6 warnings, 0 errors
+compiling xgpio_intr.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_intr.c: 1 warning, 0 errors
+compiling xgpio_selftest.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_selftest.c: 1 warning, 0 errors
+compiling gpio.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\gpio\gpio.c: 1 warning, 0 errors
+compiling xgpio_sinit.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_sinit.c: 1 warning, 0 errors
+compiling aes_128_CBC.c...
+..\aes\aes_128_CBC.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif // _AES_H_
+..\aes\aes_128_CBC.c(366): warning:  #1-D: last line of file ends without a newline
+  }
+..\aes\aes_128_CBC.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=5890 RO-data=1030 RW-data=36 ZI-data=4212  
+FromELF: creating hex file...
+After Build - User command #1: make_hex_a7.bat
+C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil>call fromelf --vhx --32x1 --output bram_a7.hex objects\m3_for_arty_a7.axf 
+C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil>copy  objects\m3_for_arty_a7.axf bram_a7.elf 
+        1 fichier(s) copi‚(s).
+C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil>call fromelf --vhx --8x1  --output qspi_a7.hex objects\m3_for_arty_a7.axf 
+C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil>call fromelf --bin        --output qspi_a7.bin objects\m3_for_arty_a7.axf 
+C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil>copy bram_a7.* ..\..\..\hardware\m3_for_arty_a7\m3_for_arty_a7 
+bram_a7.elf
+bram_a7.hex
+        2 fichier(s) copi‚(s).
+C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil>copy qspi_a7.hex ..\..\..\hardware\m3_for_arty_a7\testbench 
+        1 fichier(s) copi‚(s).
+".\objects\m3_for_arty_a7.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_m3_for_arty_a7
+  D:\embedded\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\embedded\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
