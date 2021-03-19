@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 17 14:18:28 2021
+# Process ID: 2580
+# Current directory: C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7444 C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/Micron_N25Q128A13E/code/N25Qxxx.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/Micron_N25Q128A13E/code/N25Qxxx.v
+export_ip_user_files -of_objects  [get_files C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/S25fl128s/model/s25fl128s.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/S25fl128s/model/s25fl128s.v
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+run all
+open_bd_design {C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+run all
+open_bd_design {C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+open_bd_design {C:/embedded/new_vivado_project/cortex_m3_6/cortex_m3_2a/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}

@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 13 20:43:07 2021
+# Process ID: 6996
+# Current directory: C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6368 C:\embedded\new_vivado_project\cortex_m3_2a-20210219T164022Z-001\cortex_m3_2a\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+sstart_guiopen_project C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+uupdate_compile_order -fileset sources_1open_bd_design {C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+current_wave_config {wave_daplink.wcfg}
+add_wave {{/tb_m3_for_arty/button_4bits_tri_i}} 
+run all
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+current_wave_config {wave_daplink.wcfg}
+add_wave {{/tb_m3_for_arty/button_4bits_tri_i}} 
+run all
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+current_wave_config {wave_daplink.wcfg}
+add_wave {{/tb_m3_for_arty/button_4bits_tri_i}} 
+run all
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+current_wave_config {wave_daplink.wcfg}
+add_wave {{/tb_m3_for_arty/button_4bits_tri_i}} 
+run all
+run all
+step
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+current_wave_config {wave_daplink.wcfg}
+add_wave {{/tb_m3_for_arty/button_4bits_tri_i}} 
+run all
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+current_wave_config {wave_daplink.wcfg}
+add_wave {{/tb_m3_for_arty/button_4bits_tri_i}} 
+run all
+close_sim
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+current_wave_config {wave_daplink.wcfg}
+add_wave {{/tb_m3_for_arty/button_4bits_tri_i}} 
+run all
+save_wave_config {C:/embedded/new_vivado_project/cortex_m3_2a-20210219T164022Z-001/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg}
+close_sim

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 17 14:02:45 2021
+# Process ID: 7132
+# Current directory: C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1284 C:\embedded\new_vivado_project\cortex_m3_5\cortex_m3_2a\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+update_compile_order -fileset sources_1
+delete_fileset [ get_filesets sim_2 ]
+file delete -force C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sim_2
+export_ip_user_files -of_objects  [get_files C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/block_diagram/tri_io_buf.v] -no_script -reset -force -quiet
+remove_files  C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/block_diagram/tri_io_buf.v
+export_ip_user_files -of_objects  [get_files C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/cmsdk_uart_capture.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/cmsdk_uart_capture.v
+open_bd_design {C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+launch_simulation
+open_wave_config C:/embedded/new_vivado_project/cortex_m3_5/cortex_m3_2a/hardware/m3_for_arty_a7/testbench/wave_files/wave_daplink.wcfg
+source tb_m3_for_arty.tcl
+run all
+close_sim
