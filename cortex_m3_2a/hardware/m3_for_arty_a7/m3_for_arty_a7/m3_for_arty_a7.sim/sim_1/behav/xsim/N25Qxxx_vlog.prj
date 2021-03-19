@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  -i "../../../../../testbench/micron_N25Q128A13E" --include "../../../../../block_diagram/ipshared/c923" --include "../../../../../block_diagram/ipshared/ec67/hdl" --include "../../../../../block_diagram/ipshared/ea75/rtl" \
+"../../../../../testbench/micron_N25Q128A13E/code/N25Qxxx.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
