@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Feb 16 11:54:07 2021
+# Process ID: 11556
+# Current directory: C:/embedded/cortex_m3_2/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/embedded/cortex_m3_2/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.sim/sim_1/behav/xsim/xsim.dir/N25Qxxx_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/embedded/cortex_m3_2/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/embedded/cortex_m3_2/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/embedded/cortex_m3_2/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.sim/sim_1/behav/xsim/xsim.dir/N25Qxxx_behav/webtalk/xsim_webtalk.tcl -notrace
