@@ -19,6 +19,7 @@
 .\objects\main.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h
 .\objects\main.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h
 .\objects\main.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h
+.\objects\main.o: D:\embedded\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
 .\objects\main.o: ..\main\m3_for_arty.h
 .\objects\main.o: ..\cmsis\Device\Include\peripherallink.h
 .\objects\main.o: ..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h

@@ -411,11 +411,12 @@ ARM Macro Assembler    Page 7
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\startup_arty_cm3.d -o.\objects\startup_arty_cm3.o -I.\RT
-E\_m3_for_arty_a7 -ID:\embedded\ARM\CMSIS\5.7.0\CMSIS\Core\Include -ID:\embedde
-d\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include --predefine="__EVAL SETA 1" --prede
-fine="__UVISION_VERSION SETA 533" --predefine="_RTE_ SETA 1" --predefine="ARMCM
-3 SETA 1" --predefine="_RTE_ SETA 1" --list=.\objects\startup_arty_cm3.lst ..\c
-msis\Device\Source\ARTY_CM3\ARM\startup_ARTY_CM3.s
+E\Compiler -I.\RTE\_m3_for_arty_a7 -ID:\embedded\ARM\CMSIS\5.7.0\CMSIS\Core\Inc
+lude -ID:\embedded\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include -ID:\embedded\Keil
+\ARM_Compiler\1.6.3\Include --predefine="__EVAL SETA 1" --predefine="__UVISION_
+VERSION SETA 533" --predefine="_RTE_ SETA 1" --predefine="ARMCM3 SETA 1" --pred
+efine="_RTE_ SETA 1" --list=.\objects\startup_arty_cm3.lst ..\cmsis\Device\Sour
+ce\ARTY_CM3\ARM\startup_ARTY_CM3.s
 
 
 

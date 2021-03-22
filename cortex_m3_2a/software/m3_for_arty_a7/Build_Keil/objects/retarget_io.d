@@ -1,0 +1,9 @@
+.\objects\retarget_io.o: D:\embedded\Keil\ARM_Compiler\1.6.3\Source\retarget_io.c
+.\objects\retarget_io.o: D:\embedded\ARM\ARMCC\Bin\..\include\string.h
+.\objects\retarget_io.o: D:\embedded\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\retarget_io.o: D:\embedded\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\retarget_io.o: D:\embedded\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\retarget_io.o: D:\embedded\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\retarget_io.o: D:\embedded\ARM\ARMCC\Bin\..\include\rt_sys.h
+.\objects\retarget_io.o: .\RTE\_m3_for_arty_a7\RTE_Components.h
+.\objects\retarget_io.o: D:\embedded\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
