@@ -28,6 +28,7 @@
 // Xilinx specific headers
 #include "xparameters.h"
 #include "xgpio.h"
+#include "EventRecorder.h" 
 
 #include "m3_for_arty.h"        // Project specific header
 #include "gpio.h"
@@ -140,6 +141,9 @@ int main (void)
 		// Encryption structure
 	  struct AES_ctx ctx;
 
+		// Initialise the Event Recorder
+		EventRecorderInitialize(EventRecordAll,1);
+		
     // Clear all interrupts
     NVIC_ClearAllPendingIRQ();
     
