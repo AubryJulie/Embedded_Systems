@@ -15,6 +15,8 @@
 ".\objects\xgpio_selftest.o"
 ".\objects\xgpio_sinit.o"
 ".\objects\aes_128_cbc.o"
+".\objects\eventrecorder.o"
+".\objects\retarget_io.o"
 --strict --scatter ".\objects\m3_for_arty_a7.sct"
 --entry=Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

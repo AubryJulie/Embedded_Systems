@@ -22,21 +22,21 @@ Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
 C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil\m3_for_arty_a7.uvprojx
-Project File Date:  03/17/2021
+Project File Date:  03/20/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\embedded\ARM\ARMCC\Bin'
 Rebuild target 'm3_for_arty_a7'
-assembling atomic_asm.s...
-assembling startup_ARTY_CM3.s...
 compiling outbyte.c...
+assembling atomic_asm.s...
+compiling print.c...
+assembling startup_ARTY_CM3.s...
 compiling xil_assert.c...
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
   */
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.c: 1 warning, 0 errors
-compiling print.c...
-compiling system_ARTY_CM3.c...
 compiling atomic.c...
+compiling system_ARTY_CM3.c...
 compiling xgpio_g.c...
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
   */
@@ -45,48 +45,50 @@ compiling xgpio_extra.c...
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
   */
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_extra.c: 1 warning, 0 errors
-compiling xgpio.c...
-..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
-  */
-..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.c: 1 warning, 0 errors
 compiling main.c...
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
   */
 ..\aes\aes_128_CBC.h(23): warning:  #1-D: last line of file ends without a newline
   #endif // _AES_H_
-..\main\main.c(433): warning:  #1-D: last line of file ends without a newline
+..\main\main.c(437): warning:  #1-D: last line of file ends without a newline
   }
-..\main\main.c(60): warning:  #550-D: variable "CPU_rev"  was set but never used
+..\main\main.c(61): warning:  #550-D: variable "CPU_rev"  was set but never used
   		int					 CPU_rev;
-..\main\main.c(61): warning:  #550-D: variable "CPU_var"  was set but never used
+..\main\main.c(62): warning:  #550-D: variable "CPU_var"  was set but never used
   		int					 CPU_var;
-..\main\main.c(139): warning:  #550-D: variable "END"  was set but never used
+..\main\main.c(140): warning:  #550-D: variable "END"  was set but never used
   	  volatile uint8_t * END;
 ..\main\main.c: 6 warnings, 0 errors
-compiling xgpio_intr.c...
+compiling xgpio.c...
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
   */
-..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_intr.c: 1 warning, 0 errors
-compiling xgpio_selftest.c...
-..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
-  */
-..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_selftest.c: 1 warning, 0 errors
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.c: 1 warning, 0 errors
 compiling gpio.c...
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
   */
 ..\gpio\gpio.c: 1 warning, 0 errors
+compiling xgpio_selftest.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_selftest.c: 1 warning, 0 errors
+compiling xgpio_intr.c...
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
+  */
+..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_intr.c: 1 warning, 0 errors
 compiling xgpio_sinit.c...
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h(195): warning:  #1-D: last line of file ends without a newline
   */
 ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_sinit.c: 1 warning, 0 errors
+compiling retarget_io.c...
 compiling aes_128_CBC.c...
 ..\aes\aes_128_CBC.h(23): warning:  #1-D: last line of file ends without a newline
   #endif // _AES_H_
 ..\aes\aes_128_CBC.c(366): warning:  #1-D: last line of file ends without a newline
   }
 ..\aes\aes_128_CBC.c: 2 warnings, 0 errors
+compiling EventRecorder.c...
 linking...
-Program Size: Code=5890 RO-data=1030 RW-data=36 ZI-data=4212  
+Program Size: Code=7762 RO-data=1054 RW-data=36 ZI-data=5444  
 FromELF: creating hex file...
 After Build - User command #1: make_hex_a7.bat
 C:\embedded\new_vivado_project\cortex_m3_6\cortex_m3_2a\software\m3_for_arty_a7\Build_Keil>call fromelf --vhx --32x1 --output bram_a7.hex objects\m3_for_arty_a7.axf 
@@ -110,14 +112,31 @@ Package Vendor: ARM
                 CMSIS (Cortex Microcontroller Software Interface Standard)
    * Component: CORE Version: 5.4.0
 
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.4.0
+   * Component: STDOUT Variant: EVR Version: 1.2.0
+
 <h2>Collection of Component include folders:</h2>
+  .\RTE\Compiler
   .\RTE\_m3_for_arty_a7
   D:\embedded\ARM\CMSIS\5.7.0\CMSIS\Core\Include
   D:\embedded\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include
+  D:\embedded\Keil\ARM_Compiler\1.6.3\Include
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0
+      Include file:  Config\EventRecorderConf.h
+      Source file:   Source\EventRecorder.c
+      Include file:  Include\EventRecorder.h
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:EVR:1.2.0
+      Source file:   Source\retarget_io.c
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

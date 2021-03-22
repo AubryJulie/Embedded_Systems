@@ -1,0 +1,11 @@
+.\objects\eventrecorder.o: D:\embedded\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c
+.\objects\eventrecorder.o: .\RTE\_m3_for_arty_a7\RTE_Components.h
+.\objects\eventrecorder.o: D:\embedded\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h
+.\objects\eventrecorder.o: ..\cmsis\CMSIS\Include\core_cm3.h
+.\objects\eventrecorder.o: D:\embedded\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\eventrecorder.o: ..\cmsis\CMSIS\Include\core_cmInstr.h
+.\objects\eventrecorder.o: ..\cmsis\CMSIS\Include\core_cmFunc.h
+.\objects\eventrecorder.o: D:\embedded\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h
+.\objects\eventrecorder.o: D:\embedded\ARM\ARMCC\Bin\..\include\string.h
+.\objects\eventrecorder.o: D:\embedded\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
+.\objects\eventrecorder.o: .\RTE\Compiler\EventRecorderConf.h

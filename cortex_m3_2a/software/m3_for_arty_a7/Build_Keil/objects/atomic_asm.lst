@@ -37,11 +37,12 @@ ARM Macro Assembler    Page 1
    24 0000000A 4770            bx               lr          ;
    25 0000000C                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=.\objects\atomic_asm.d -o.\objects\atomic_asm.o -I.\RTE\_m3_for_ar
-ty_a7 -ID:\embedded\ARM\CMSIS\5.7.0\CMSIS\Core\Include -ID:\embedded\ARM\CMSIS\
-5.7.0\Device\ARM\ARMCM3\Include --predefine="__EVAL SETA 1" --predefine="__UVIS
-ION_VERSION SETA 533" --predefine="_RTE_ SETA 1" --predefine="ARMCM3 SETA 1" --
-predefine="_RTE_ SETA 1" --list=.\objects\atomic_asm.lst ..\main\atomic_asm.s
+ork --depend=.\objects\atomic_asm.d -o.\objects\atomic_asm.o -I.\RTE\Compiler -
+I.\RTE\_m3_for_arty_a7 -ID:\embedded\ARM\CMSIS\5.7.0\CMSIS\Core\Include -ID:\em
+bedded\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include -ID:\embedded\Keil\ARM_Compile
+r\1.6.3\Include --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA
+ 533" --predefine="_RTE_ SETA 1" --predefine="ARMCM3 SETA 1" --predefine="_RTE_
+ SETA 1" --list=.\objects\atomic_asm.lst ..\main\atomic_asm.s
 
 
 
